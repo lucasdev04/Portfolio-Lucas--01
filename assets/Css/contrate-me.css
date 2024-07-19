@@ -95,7 +95,7 @@ form button:hover{
 }
 
 .text {
-    font-size: 30px;
+    font-size: 40px;
     color: #fff;
     margin-bottom: 30px;
 }
@@ -123,4 +123,10 @@ form button:hover{
 
 .btn:hover  {
     background-color: #4caf50;
+}
+
+@media screen and (max-width: 437px){
+    .text{
+        font-size: 30px;
+    }
 }

@@ -25,7 +25,7 @@ section {
     width: 500px;
     border: 1px solid #27272a;
     border-radius: 48px;
-    margin: 20px;
+    margin: 0 40px;
 }
 
 section h2 {
@@ -79,6 +79,8 @@ form button{
 form button:hover{
     background-color: #000;
 }
+
+
 
 
 

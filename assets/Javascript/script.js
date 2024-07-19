@@ -9,3 +9,11 @@ function copiar (){
     copiarEmail.textContent = "Copiar Email";
   }, 2000);
 }
+
+const btnEnviar = document.getElementById("btn-enviar");
+
+btnEnviar.addEventListener("click", enviar);
+
+function enviar () {
+  window.location = "obrigado.html";
+}

@@ -10,17 +10,17 @@
     <section>
         <h2>Contato</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
+            <input type="hidden" name="accessKey" value="48c517c4-8fc8-467b-9f62-b0f5dd2b6242">
             <label for="">Nome</label>
             <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required/>
             <label for="">Email</label>
             <input type="email" name="email" placeholder="Digite seu email" required/>
             <label for="">Mensagem</label>
             <textarea name="message" cols="30" rows="10" required placeholder="Digite sua mensagem"></textarea>
-            <button type="submit">Enviar</button>
+            <button type="submit" id="btn-enviar">Enviar</button>
 
-            <input type="hidden" name="accessKey" value="48c517c4-8fc8-467b-9f62-b0f5dd2b6242">
-            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
         </form>
     </section>
+    <script src="./assets/Javascript/script.js"></script>
 </body>
 </html>

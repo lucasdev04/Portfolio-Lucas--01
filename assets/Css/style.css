@@ -263,6 +263,7 @@ nav .links a.active {
     line-height: 26px;
 }
 
+
 .works .right .item:not(:first-child){
     gap: 14px;
 }
@@ -273,6 +274,11 @@ nav .links a.active {
 
 .works .right .item:not(:first-child) p{
     font-size: 15px;
+}
+
+.works .right .item:not(:first-child) .link-whatsapp{
+    font-size: 15px;
+    color: #bdbdbd;
 }
 
 footer {
